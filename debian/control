@@ -1,11 +1,11 @@
 Source: workspace-window
 Section: utils
 Priority: optional
-Maintainer: Your Name <you@example.com>
+Maintainer: Pavlos Orfanidis <pavlos@orfanidis.net.gr>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
-Homepage: http://example.com
-Vcs-Git: https://github.com/yourusername/workspace_window.git
+Homepage: https://github.com/porfanid/workspace-window
+Vcs-Git: https://github.com/porfanid/workspace-window.git
 
 Package: workspace-window
 Architecture: any

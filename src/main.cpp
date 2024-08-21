@@ -53,18 +53,17 @@ int get_number_of_workspaces(Display* display) {
     return -1; // Error
 }
 
-void move_window_to_next_workspace(Display* display, Window window) {
+void move_window_to_workspace(Display* display, Window window, bool next){
     int current_workspace = get_current_workspace(display);
     int num_workspaces = get_number_of_workspaces(display);
-    int next_workspace = (current_workspace + 1) % num_workspaces;
-    move_window_to_workspace(display, window, next_workspace);
-}
+    int next_workspace;
+    if(next){
+        next_workspace = (current_workspace + 1) % num_workspaces;
+    }else{
+        next_workspace = (current_workspace - 1) % num_workspaces;
+    }
 
-void move_window_to_prev_workspace(Display* display, Window window) {
-    int current_workspace = get_current_workspace(display);
-    int num_workspaces = get_number_of_workspaces(display);
-    int prev_workspace = (current_workspace - 1 + num_workspaces) % num_workspaces;
-    move_window_to_workspace(display, window, prev_workspace);
+    move_window_to_workspace(display, window, next_workspace);
 }
 
 Window get_window_under_cursor(Display* display) {
@@ -104,9 +103,9 @@ int main(int argc, char **argv) {
     }
 
     if (direction == "next") {
-        move_window_to_next_workspace(display, window);
+        move_window_to_workspace(display, window, true);
     } else if (direction == "prev") {
-        move_window_to_prev_workspace(display, window);
+        move_window_to_workspace(display, window, false);
     } else {
         std::cerr << "Unknown direction: " << direction << std::endl;
         return 1;
