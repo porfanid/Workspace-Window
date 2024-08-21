@@ -10,3 +10,5 @@
 # Ignore CMake cache and configuration files
 CMakeCache.txt
 CMakeFiles/
+
+.idea/
