@@ -1,0 +1,12 @@
+/cmake-build-debug/
+# Ignore build directory
+/build/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore CMake cache and configuration files
+CMakeCache.txt
+CMakeFiles/

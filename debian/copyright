@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: workspace_window
+Source: https://github.com/yourusername/workspace_window
+
+Files: *
+Copyright: 2024 Your Name <you@example.com>
+License: MIT

@@ -1,0 +1,14 @@
+Source: workspace-window
+Section: utils
+Priority: optional
+Maintainer: Your Name <you@example.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://example.com
+Vcs-Git: https://github.com/yourusername/workspace_window.git
+
+Package: workspace-window
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A C++ application to move windows between workspaces using X11.
+ This package provides a utility to move windows to different workspaces.
