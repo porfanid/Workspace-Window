@@ -2,9 +2,9 @@ Source: workspace-window
 Section: utils
 Priority: optional
 Maintainer: Pavlos Orfanidis <pavlos@orfanidis.net.gr>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), cmake(>= 3.16), libxrandr-dev
 Standards-Version: 3.9.6
-Homepage: https://github.com/porfanid/workspace-window
+Homepage: https://porfanid.github.io/Workspace-Window/
 Vcs-Git: https://github.com/porfanid/workspace-window.git
 
 Package: workspace-window

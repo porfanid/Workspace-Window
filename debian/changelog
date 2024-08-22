@@ -1,4 +1,56 @@
-workspace-window (1.0-1) trusty; urgency=medium
+workspace-window (1.3-3) noble; urgency=medium
+
+  * Reduced dependencies to be able to be built to more ubuntu versions.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+workspace-window (1.3-2) jammy; urgency=medium
+
+  * Reduced dependencies to be able to be built to more ubuntu versions.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+workspace-window (1.3-1) focal; urgency=medium
+
+  * Reduced dependencies to be able to be built to more ubuntu versions.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+
+workspace-window (1.2-2) focal; urgency=medium
+
+  * Initial release.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+
+workspace-window (1.1-3) noble; urgency=medium
+
+  * Initial release.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+
+workspace-window (1.1-2) jammy; urgency=medium
+
+  * Initial release.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+
+workspace-window (1.1-1) focal; urgency=medium
+
+  * Initial release.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+
+
+
+workspace-window (1.0-4) noble; urgency=medium
+
+  * Initial release.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+workspace-window (1.0-3) jammy; urgency=medium
+
+  * Initial release.
+
+ -- Pavlos Orfanidis <pavlos@orfanidis.net.gr>  Mon, 19 Aug 2024 08:59:46 +0300
+workspace-window (1.0-2) focal; urgency=medium
 
   * Initial release.
 

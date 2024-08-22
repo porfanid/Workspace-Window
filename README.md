@@ -1,7 +1,3 @@
-Got it. The README should correctly reflect that the utility moves the window under the cursor to the next or previous workspace. Here is the updated README with CMake instructions and a focus on this functionality:
-
----
-
 # Window Workspace Manager
 
 This project provides a command-line utility for managing window placement across virtual desktops (workspaces) on X11-based systems. Specifically, it allows you to move the window currently under the mouse cursor to the next or previous workspace.
@@ -17,6 +13,16 @@ The utility utilizes X11's Extended Window Manager Hints (EWMH) to interact with
 
 - **Move Window to Next Workspace:** Moves the window currently under the cursor to the next workspace.
 - **Move Window to Previous Workspace:** Moves the window currently under the cursor to the previous workspace.
+
+## Installation
+
+You can install the app in apt based distros by using the ppa:
+
+```bash
+sudo add-apt-repository ppa:porfanid/workspaces
+sudo apt update
+sudo apt install workspace-window
+```
 
 ## Requirements
 

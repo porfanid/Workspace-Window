@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: workspace_window
-Source: https://github.com/yourusername/workspace_window
+Upstream-Name: workspace-window
+Source: https://porfanid.github.io/Workspace-Window/
 
 Files: *
-Copyright: 2024 Your Name <you@example.com>
+Copyright: 2024 Pavlos Orfanidis <pavlos@orfanidis.net.gr>
 License: MIT
